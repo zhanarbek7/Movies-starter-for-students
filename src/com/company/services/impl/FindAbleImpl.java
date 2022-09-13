@@ -1,33 +1,33 @@
 package com.company.services.impl;
 
 import com.company.models.Director;
+import com.company.services.FindAble;
 import com.company.services.SortAble;
 
-public class FindAbleImpl implements SortAble {
-
+public class FindAbleImpl implements FindAble {
 
     @Override
-    public void printAllMovies() {
+    public void findMoviesByActor(String actorName) {
 
     }
 
     @Override
-    public void findMovie(String movieName) {
+    public void findMoviesByDirector(String directorName) {
 
     }
 
     @Override
-    public void sortByYear(int year) {
+    public void findMoviesByYear(int year) {
 
     }
 
     @Override
-    public void sortByName(String name) {
+    public void findMoviesAndRoleByActor(String actorName) {
 
     }
 
     @Override
-    public void sortByDirector(Director director) {
+    public void showActorRoles(String actor) {
 
     }
 }
